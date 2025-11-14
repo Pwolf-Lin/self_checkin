@@ -14,6 +14,7 @@ import requests, sys, os, re, time, json
 from datetime import datetime
 from urllib.parse import quote, quote_plus, unquote_plus
 from functools import partial
+from utils import get_data
 print = partial(print, flush=True)
 import warnings
 # from selenium import webdriver
@@ -72,6 +73,8 @@ def finishTaskEveryday(cookie):
         getList=res['resultData']['data']
         for itask in getList:
             status=itask['status']
+            finishNum=itask['finishNum']
+            if(finishNum==1):continue
             awardNum = itask['awards'][0]['awardNum']
             if (awardNum>20):continue
             doLink=itask['doLink'] + ' '
@@ -79,6 +82,7 @@ def finishTaskEveryday(cookie):
             name=itask['name']
             # detail = itask['detail']
             if(status==1):
+                if(finishNum==0):taskList.append(itask)
                 awardTaskEveryday(doLink,missionId,name,cookie)
                 time.sleep(1)
             elif(status==2):
@@ -92,7 +96,7 @@ def finishTaskEveryday(cookie):
             elif(status==-1):#接取任务
                 reveice(doLink,missionId,name,cookie)
                 time.sleep(1)
-            elif(status==0):
+            elif(status==0 and finishNum==0):
                 taskList.append(itask)
             
         for i in range(1,2):      
@@ -440,7 +444,10 @@ def awardExtra(missionId,name,cookie):
 
 if __name__ == '__main__':
     try:
-        cks = getCk
+        #cks = getCk
+        data = get_data()
+        _check_items_list = data.get("JD", [])
+        cks=[_check_items_list[0]["cookie"]]
         if not cks:
             sys.exit()
     except:
