@@ -72,6 +72,7 @@ def finishTaskEveryday(cookie):
     if res['resultData']['success']:
         getList=res['resultData']['data']
         for itask in getList:
+            if any("externalCode" in key or 'delayAwardDays' in key for key in itask.keys()):continue
             status=itask['status']
             finishNum=itask['finishNum']
             if(finishNum==1):continue
@@ -80,24 +81,18 @@ def finishTaskEveryday(cookie):
             doLink=itask['doLink'] + ' '
             missionId=itask['missionId']
             name=itask['name']
-            # detail = itask['detail']
-            if(status==1):
-                if(finishNum==0):taskList.append(itask)
-                awardTaskEveryday(doLink,missionId,name,cookie)
-                time.sleep(1)
-            elif(status==2):
-                continue
-            #if('浏览' in name ) or ('浏览' in detail) or ('去京东' in name) or ("养狗" in name) or ('汪汪' in name) or ('1V1' in name) ('' in name):
-                # if(status==-1):#接取任务
-                #     reveice(doLink,missionId,name,cookie)
-                #     time.sleep(1)
-                # elif(status==0):
-                #     taskList.append(itask)
-            elif(status==-1):#接取任务
-                reveice(doLink,missionId,name,cookie)
-                time.sleep(1)
-            elif(status==0 and finishNum==0):
-                taskList.append(itask)
+            if(finishNum==0):
+                if(status==1):
+                    awardTaskEveryday(doLink,missionId,name,cookie)
+                    time.sleep(1)
+                elif(status==2):
+                    continue
+                elif(status==-1):#接取任务
+                    reveice(doLink,missionId,name,cookie)
+                    time.sleep(1)
+                else:
+                    taskList.append(itask)
+            else:continue
             
         for i in range(1,2):      
             for itask in taskList:
