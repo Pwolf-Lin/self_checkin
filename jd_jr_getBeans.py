@@ -29,7 +29,7 @@ except:
 
 
 def finishTaskEveryday(cookie):
-    url = "https://ms.jr.jd.com/gw2/generic/legogw/h5/m/getPageInfoSafetyTranslate&pageType=11189"
+    url = "https://ms.jr.jd.com/gw2/generic/legogw/h5/m/getPageInfoSafetyTranslate?pageType=11189"
     req_data = {
         "clientVersion": "8.0.50",
         "clientType": "ios",
