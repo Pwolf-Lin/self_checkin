@@ -1,0 +1,2058 @@
+{
+  "resultData": {
+    "ext": {
+      "legoVersion": "30",
+      "memorialDay": "0"
+    },
+    "traceId": "5960403332672259091",
+    "pageTitle": "做任务领京豆二级页",
+    "pageSize": 10,
+    "pageId": 11189,
+    "needExposure": false,
+    "mustRefresh": false,
+    "pageUuid": "791e115d1ae44d08950bf0ebd0efd92b",
+    "lgPdPaid": "gainJDbean",
+    "pageType": 11189,
+    "pageNo": 1,
+    "topData": {
+      "part256570004": {
+        "pageBgImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/319449/17/10773/144879/6859027dF37185968/9012c04376144f7a.png?width=1125&height=1050&_fs=144879",
+        "backImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/317761/29/6911/693/68429c59F93e4728f/1b6077259cd49418.png?width=132&height=132&_fs=693",
+        "coinPrice": {
+          "text": "价值21.1元",
+          "textColor": "#666666"
+        },
+        "titleImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/292213/31/9574/3137/68491429F3f1aa365/d9899412edbea4ba.png?width=171&height=66&_fs=3137",
+        "coinNumber": {
+          "text": "2110",
+          "textColor": "#000000"
+        },
+        "records": {
+          "jumpData": {
+            "jumpType": "8",
+            "pageType": "0",
+            "jumpUrlText": "",
+            "schemeUrl": "https://member.jr.jd.com/member/integral-mall/jdmine/?refererFrom=jdjr&jrcontainer=h5&jrlogin=true",
+            "jumpUrl": "https://member.jr.jd.com/member/integral-mall/jdmine/?refererFrom=jdjr"
+          },
+          "text": "记录",
+          "textColor": "#666666",
+          "trackData": {
+            "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"lgKeyPathMd5\":\"6a5b53cb509802238b95c6b4c4e18579\",\"pagid\":\"-1\",\"ordid\":\"*0*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86728*86425*107418*\",\"legoEnv\":\"3\",\"matid\":\"*赚京豆头部楼层*赚京豆头部楼层***记录入口\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86728\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+            "paid": "gainJDbean",
+            "cls": "gainJDbean|recordEntrance",
+            "bid": "711189",
+            "ctp": "711189"
+          }
+        },
+        "tools": {
+          "icon": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/308947/31/7411/357/68429e5cFf63882ca/de0421966912900f.png?width=132&height=132&_fs=357",
+          "list": [
+            {
+              "icon": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/312089/20/7299/508/68429ea7F8989a0a5/8c5b346d6fe98b28.png?width=72&height=72&_fs=508",
+              "jumpData": {
+                "jumpType": "8",
+                "pageType": "0",
+                "jumpUrlText": "",
+                "schemeUrl": "https://storage.jd.com/protocols/format/8418ead089645670be001e2a7d7a89d3.html?jrcontainer=h5&jrlogin=true",
+                "jumpUrl": "https://storage.jd.com/protocols/format/8418ead089645670be001e2a7d7a89d3.html"
+              },
+              "text": "规则",
+              "textColor": "#FFFFFF",
+              "trackData": {
+                "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"iconName\":\"规则\",\"lgKeyPathMd5\":\"6b39e621bf5ecd66d245bf20a8275798\",\"pagid\":\"-1\",\"ordid\":\"*0*1*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86728*86425*107418*70269\",\"legoEnv\":\"3\",\"matid\":\"*赚京豆头部楼层*赚京豆头部楼层***规则埋点\",\"legoCurLevel\":\"MATERIAL\",\"jumpSource\":\"001\",\"mainFloorId\":\"86728\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                "paid": "gainJDbean",
+                "cls": "gainJDbean|threePoints_open",
+                "bid": "711189",
+                "spj": "{\"iconName\":\"规则\"}",
+                "ctp": "711189"
+              }
+            },
+            {
+              "icon": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/306894/6/7254/1881/68429ee8Fff1c210a/17c5c97fd5a6cd69.png?width=72&height=72&_fs=1881",
+              "jumpData": {
+                "jumpType": "8",
+                "pageType": "0",
+                "jumpUrlText": "",
+                "schemeUrl": "https://jtk.jd.com/hindex.htm?entrance=469&jrcontainer=h5&jrlogin=true",
+                "jumpUrl": "https://jtk.jd.com/hindex.htm?entrance=469"
+              },
+              "text": "客服",
+              "textColor": "#FFFFFF",
+              "trackData": {
+                "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"iconName\":\"客服\",\"lgKeyPathMd5\":\"6b39e621bf5ecd66d245bf20a8275798\",\"pagid\":\"-1\",\"ordid\":\"*0*1*1*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86728*86425*107418*70270\",\"legoEnv\":\"3\",\"matid\":\"*赚京豆头部楼层*赚京豆头部楼层***客服埋点\",\"legoCurLevel\":\"MATERIAL\",\"jumpSource\":\"001\",\"mainFloorId\":\"86728\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                "paid": "gainJDbean",
+                "cls": "gainJDbean|threePoints_open",
+                "bid": "711189",
+                "spj": "{\"iconName\":\"客服\"}",
+                "ctp": "711189"
+              }
+            }
+          ],
+          "trackData": {
+            "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"lgKeyPathMd5\":\"ccda17841b1f078dece931d3a0151e79\",\"pagid\":\"-1\",\"ordid\":\"*0*1*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86728*86425*107418*\",\"legoEnv\":\"3\",\"matid\":\"*赚京豆头部楼层*赚京豆头部楼层***三个点_入口\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86728\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+            "paid": "gainJDbean",
+            "cls": "gainJDbean|threePoints_entrance",
+            "bid": "711189",
+            "ctp": "711189"
+          }
+        },
+        "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/288229/22/13539/3501/685905dfFa17172be/0c3a8e03b20d650b.png?width=54&height=54&_fs=3501",
+        "trackDataCoin": {
+          "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"lgKeyPathMd5\":\"06800c400b5a245a4fdcee3618534373\",\"pagid\":\"-1\",\"ordid\":\"*0*0-Coin\",\"lgPageId\":\"11189\",\"posid\":\"*86728*86425*107417*\",\"JDBeansCnt\":\"2110\",\"legoEnv\":\"3\",\"matid\":\"*赚京豆头部楼层*赚京豆头部楼层*账户区**京豆账户\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86728\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+          "paid": "gainJDbean",
+          "cls": "gainJDbean|beans",
+          "bid": "711189",
+          "spj": "{\"JDBeansCnt\":\"2110\"}",
+          "ctp": "711189"
+        }
+      }
+    },
+    "end": true,
+    "hasError": false,
+    "resultList": [
+      {
+        "templateType": 3,
+        "floorInstanceName": "模板3-间隔模板-首页氛围使用",
+        "templateSceneId": 147,
+        "templateData": {
+          "skuId": "",
+          "height": "20",
+          "legoTrack_Data_pit_pit_tfyr5": {
+            "templateInstanceName": "模板3-间隔模板-首页氛围使用",
+            "pitCode": "pit_tfyr5",
+            "floorInstanceName": "模板3-间隔模板-首页氛围使用",
+            "templateInstanceId": 88383,
+            "atomType": "PIT",
+            "floorInstanceId": 88686,
+            "pitInstanceId": 111647,
+            "pitInstanceName": "坑位1"
+          }
+        },
+        "orderNum": 3,
+        "templateId": 88383,
+        "extMap": "{\"legoVersion\":\"30\",\"pageId\":11189}",
+        "floorTagData": {
+          "legoBizType": []
+        },
+        "templateBgColor": "#00000000",
+        "pageId": 11189,
+        "templateIndex": 3,
+        "hasError": false,
+        "floorInstanceId": 88686,
+        "templateKey": ""
+      },
+      {
+        "templateType": 256570003,
+        "floorInstanceName": "省钱-任务牵引",
+        "templateSceneId": 4956,
+        "templateData": {
+          "bucket": {
+            "lottie2": "",
+            "lottie1": "",
+            "iconImg4": "",
+            "iconImg3": "",
+            "lottie4": "",
+            "line": {
+              "endColor": "",
+              "normalColor": "",
+              "startColor": ""
+            },
+            "iconImg2": "",
+            "lottie3": "",
+            "iconImg1": ""
+          },
+          "missionTotalNumber": "5503",
+          "coinImg2": "",
+          "bubble": {
+            "iconImg": "",
+            "isRemindText": "关闭",
+            "isRemind": "0",
+            "subTextColor": "#AB5253",
+            "templateId": "37164",
+            "textColor": "#FF4144",
+            "subText": "提醒我",
+            "trackData": {
+              "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"lgKeyPathMd5\":\"277c118739d85039bbe8f15a64890d6a\",\"pagid\":\"-1\",\"switchStatus\":\"关闭\",\"ordid\":\"*1*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86729*86426*109467*\",\"legoEnv\":\"3\",\"matid\":\"*牵引区*牵引区***\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86729\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+              "paid": "gainJDbean",
+              "cls": "gainJDbean|tomorrowCanGetSubscribeButton",
+              "bid": "711189",
+              "ctp": "711189"
+            }
+          },
+          "abType": "0",
+          "awardNumber": {
+            "textColor": "#000000"
+          },
+          "completionStage": "",
+          "list": [],
+          "message": {
+            "bgImg": "",
+            "textColor": "#000000"
+          },
+          "subMessage": [],
+          "trackData": {
+            "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"lgKeyPathMd5\":\"c33f0151ced71010de1e12ca4a12d367\",\"pagid\":\"-1\",\"ordid\":\"*1*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86729*86426*107419*\",\"legoEnv\":\"3\",\"matid\":\"*牵引区*牵引区***任务进度条\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86729\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+            "paid": "gainJDbean",
+            "cls": "gainJDbean|taskProgressBar",
+            "bid": "711189",
+            "ctp": "711189"
+          },
+          "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/305934/9/12757/2476/685905f6Fae40d146/50a3e464210d0eb2.png?width=42&height=42&_fs=2476"
+        },
+        "orderNum": 1,
+        "templateId": 86426,
+        "pitOrderNum": 1,
+        "extMap": "{\"legoVersion\":\"30\",\"pageId\":11189,\"interactiveRefresh\":{\"templateType\":256570003,\"templateInsId\":86426,\"floorInstanceId\":86729}}",
+        "floorTagData": {
+          "legoBizType": []
+        },
+        "templateBgColor": "",
+        "pageId": 11189,
+        "templateIndex": 1,
+        "pitNum": 2,
+        "hasError": false,
+        "floorInstanceId": 86729,
+        "templateKey": ""
+      },
+      {
+        "templateType": 256610003,
+        "floorInstanceName": "赚京豆-任务列表",
+        "templateSceneId": 4969,
+        "templateData": {
+          "topTaskBgColor": "#0FFF4144",
+          "tabTextColor": "#666666",
+          "tabList": [
+            {
+              "name": "推荐",
+              "tabType": "tuijian",
+              "trackData": {
+                "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"tabName\":\"推荐\",\"lgKeyPathMd5\":\"476f469008e21048f784e0c2f7f17f24\",\"pagid\":\"-1\",\"ordid\":\"*2*37*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107487*70327\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区***推荐tab埋点\",\"legoCurLevel\":\"MATERIAL\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                "paid": "gainJDbean",
+                "cls": "gainJDbean|tabKey",
+                "bid": "711189",
+                "spj": "{\"tabName\":\"推荐\"}",
+                "ctp": "711189"
+              }
+            },
+            {
+              "name": "浏览App赚豆",
+              "tabType": "liulan",
+              "trackData": {
+                "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"tabName\":\"浏览App赚豆\",\"lgKeyPathMd5\":\"476f469008e21048f784e0c2f7f17f24\",\"pagid\":\"-1\",\"ordid\":\"*2*38*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107487*70328\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区***浏览tab埋点\",\"legoCurLevel\":\"MATERIAL\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                "paid": "gainJDbean",
+                "cls": "gainJDbean|tabKey",
+                "bid": "711189",
+                "spj": "{\"tabName\":\"浏览App赚豆\"}",
+                "ctp": "711189"
+              }
+            },
+            {
+              "name": "做任务赚豆",
+              "tabType": "renwu",
+              "trackData": {
+                "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"tabName\":\"做任务赚豆\",\"lgKeyPathMd5\":\"476f469008e21048f784e0c2f7f17f24\",\"pagid\":\"-1\",\"ordid\":\"*2*39*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107487*70329\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区***任务tab埋点\",\"legoCurLevel\":\"MATERIAL\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                "paid": "gainJDbean",
+                "cls": "gainJDbean|tabKey",
+                "bid": "711189",
+                "spj": "{\"tabName\":\"做任务赚豆\"}",
+                "ctp": "711189"
+              }
+            }
+          ],
+          "tabBgColor": "#ADF4F3F8",
+          "tabBgColor2": "#14FF4144",
+          "tabTextColor2": "#FF4144",
+          "taskList": [
+            {
+              "missionId": "11311",
+              "missionReportDUId": "11311|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_11311|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.750931752425769E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+250",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "体验1笔金条取现",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "11311",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "11311|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_11311|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://mjt.jd.com/jintiao-credit/account/index.html?sysCode=s01&sourceLink=c166&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"11311\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"11311|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_11311|0|\",\"ordid\":\"*2*0*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**体验1笔金条取现\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"11311\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "完成任务得京豆奖励",
+                "textColor": "#999999"
+              },
+              "missionType": 1,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 6,
+                "renwu": 1
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "24614",
+              "missionReportDUId": "24614|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_24614|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7509314370735332E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "完成一笔话费充值",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "24614",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "24614|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_24614|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://show.jd.com/m/RyX2/?channel=earnpoints&pageKey=RyX2&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"24614\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"24614|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_24614|0|\",\"ordid\":\"*2*1*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**完成一笔话费充值\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"24614\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "完成一笔话费充值得1京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 1,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 7,
+                "renwu": 2
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "24783",
+              "missionReportDUId": "24783|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_24783|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.75093140796392E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "去百度极速版领现金",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "24783",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "24783|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_24783|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://storage.jd.com/static-page/mission/forever/changeflowapp/index.html?code=202305092124tBxzOf&mid=24783&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"24783\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"24783|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_24783|0|\",\"ordid\":\"*2*2*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**去百度极速版领现金\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"24783\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "完成任务可得1京豆\n",
+                "textColor": "#999999"
+              },
+              "missionType": 6,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 4,
+                "liulan": 1
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "24812",
+              "missionReportDUId": "24812|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_24812|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7509313316318457E12.jpeg",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "去YY直播领福利",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "24812",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "24812|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_24812|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://storage.jd.com/static-page/mission/forever/changeflowapp/index.html?code=202305092110DjTs65&mid=24812&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"24812\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"24812|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_24812|0|\",\"ordid\":\"*2*3*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**去YY直播领福利\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"24812\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "完成任务可得1京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 6,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 8,
+                "liulan": 2
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "26509",
+              "missionReportDUId": "26509|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_26509|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.750931199278967E12.jpeg",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "去饿了么玩游戏领大奖",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "26509",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "26509|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_26509|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://storage.jd.com/static-page/mission/forever/changeflowapp/index.html?code=202405281151RWD5SO&mid=26509&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"26509\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"26509|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_26509|0|\",\"ordid\":\"*2*4*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**去饿了么玩游戏领大奖\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"26509\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "去饿了么玩游戏领大奖\n",
+                "textColor": "#999999"
+              },
+              "missionType": 6,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 9,
+                "liulan": 3
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "35419",
+              "missionReportDUId": "35419|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35419|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7509299021052427E12.jpeg",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "去头条看资讯赚金币",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "35419",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "35419|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35419|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://storage.jd.com/static-page/mission/forever/changeflowapp/index.html?code=202502131327YT1Ow4&mid=35419&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"35419\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"35419|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35419|0|\",\"ordid\":\"*2*5*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**去头条看资讯赚金币\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"35419\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "完成任务可得京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 6,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 10,
+                "liulan": 4
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "35420",
+              "missionReportDUId": "35420|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35420|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7509298766606355E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+2",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "去头条极速版刷视频赚现金",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "35420",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "35420|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35420|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://storage.jd.com/static-page/mission/forever/changeflowapp/index.html?code=202502171841SorfF5&mid=35420&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"35420\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"35420|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35420|0|\",\"ordid\":\"*2*6*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**去头条极速版刷视频赚现金\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"35420\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "完成任务可得京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 6,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 11,
+                "liulan": 5
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "35549",
+              "missionReportDUId": "35549|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35549|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7509298300900813E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "去悟空浏览器领福利",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "35549",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "35549|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35549|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://storage.jd.com/static-page/mission/forever/changeflowapp/index.html?code=202502171841xsyV6O&mid=35549&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"35549\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"35549|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35549|0|\",\"ordid\":\"*2*7*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**去悟空浏览器领福利\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"35549\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "完成任务可得1京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 6,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 12,
+                "liulan": 6
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "35709",
+              "missionReportDUId": "35709|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35709|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7477210528612458E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+5",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "登录他她它APP并和AI对话",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "35709",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "35709|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35709|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://tachat.com/download?c=7vb5rvuhky&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"35709\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"35709|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35709|0|\",\"ordid\":\"*2*8*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**登录他她它APP并和AI对话\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"35709\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "完成任务可得5京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 1,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 13,
+                "renwu": 3
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "35738",
+              "missionReportDUId": "35738|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35738|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7509297798829756E12.jpeg",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "去皮皮虾看搞笑内容赚钱",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "35738",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "35738|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35738|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://storage.jd.com/static-page/mission/forever/changeflowapp/index.html?code=202502171842uL8Z60&mid=35738&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"35738\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"35738|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35738|0|\",\"ordid\":\"*2*9*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**去皮皮虾看搞笑内容赚钱\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"35738\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "完成任务可得1京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 6,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 14,
+                "liulan": 7
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "36479",
+              "missionReportDUId": "36479|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_36479|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7509273013699666E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "消灭小萌星过1关",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "36479",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "36479|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_36479|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://u.jr.jd.com/uc-fe-wxgrowing/game-eliminate-star/index/?channel=jfrw&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"36479\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"36479|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_36479|0|\",\"ordid\":\"*2*10*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**消灭小萌星过1关\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"36479\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "每天过1关，可得1京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 1,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 15,
+                "renwu": 4
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "36786",
+              "missionReportDUId": "36786|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_36786|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7509879423671504E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+2",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "每天查询停车订单",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "36786",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "36786|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_36786|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://city.jd.com/third-app/k-park/#/licenseQuery?taskType=view&utm_medium=XJFRWZX_Parking_Check_pending_payments&utm_src=jdjr&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"36786\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"36786|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_36786|0|\",\"ordid\":\"*2*11*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**每天查询停车订单\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"36786\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "完成任务得2京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 1,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 16,
+                "renwu": 5
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "37565",
+              "missionReportDUId": "37565|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_37565|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7530758422402266E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "种菜领现金",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "37565",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "37565|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_37565|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://u.jr.jd.com/uc-fe-wxgrowing/rich-farm/index.html?jrtransparentbar=true&channel=cfzyjfrw&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"37565\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"37565|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_37565|0|\",\"ordid\":\"*2*12*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**种菜领现金\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"37565\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "种植5份作物可得1京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 1,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 17,
+                "renwu": 6
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "37669",
+              "missionReportDUId": "37669|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_37669|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7533437794976418E12.png",
+              "topFlag": true,
+              "awardNumber": {
+                "text": "+5",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "完成一笔外卖订单",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "37669",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "37669|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_37669|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://hour.jd.com/activity/hourbuyh5/pages/channelPage/index?realTimeLoc=1&channelId=17538&launchChannel=JDJR-SHENGQIAN&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"37669\",\"ifTopUp\":1,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"37669|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_37669|0|\",\"ordid\":\"*2*13*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**完成一笔外卖订单\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"37669\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 1
+              },
+              "subTitle": {
+                "text": "完成一笔外卖订单得5京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 1,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 1,
+                "renwu": 7
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "38148",
+              "missionReportDUId": "38148|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_38148|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.754464125931381E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+3888",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "开通京东联名卡",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "38148",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "38148|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_38148|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://jccapt.jr.jd.com/individualRights?channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"38148\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"38148|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_38148|0|\",\"ordid\":\"*2*14*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**开通京东联名卡\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"38148\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "终审通过得3888京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 1,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 18,
+                "renwu": 8
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "38432",
+              "missionReportDUId": "38432|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_38432|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.750930139914894E12.jpeg",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+128",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "免费领189元京东家政服务",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "38432",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "38432|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_38432|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://bao.tjjt360.com/insurance/product/p-pro?sourceType=JDAPP&resourcePlace=jfrw&pid=2022212379&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"38432\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"38432|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_38432|0|\",\"ordid\":\"*2*15*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**免费领189元京东家政服务\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"38432\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "激活再送6桶洗衣液，升级全屋保障可得",
+                "textColor": "#999999"
+              },
+              "missionType": 4,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 5,
+                "renwu": 9
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "38442",
+              "missionReportDUId": "38442|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_38442|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7552519424709004E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "猜足球赢百万京豆",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "38442",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "38442|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_38442|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://show.jd.com/m/0LXdKEpV3ZopyQP5/?channel=shengqianrw&pageKey=0LXdKEpV3ZopyQP5&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"38442\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"38442|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_38442|0|\",\"ordid\":\"*2*16*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**猜足球赢百万京豆\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"38442\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "参与投注/抽奖可得奖励",
+                "textColor": "#999999"
+              },
+              "missionType": 7,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 19
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "39038",
+              "missionReportDUId": "39038|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_39038|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7568894183900474E12.jpeg",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "去QQ音乐领福利",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "39038",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "39038|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_39038|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://storage.jd.com/static-page/mission/forever/changeflowapp/index.html?code=202508291507W3bj5y&mid=39038&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"39038\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"39038|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_39038|0|\",\"ordid\":\"*2*17*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**去QQ音乐领福利\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"39038\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "完成任务可得1京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 6,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 20,
+                "liulan": 8
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "39084",
+              "missionReportDUId": "39084|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_39084|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7570410362098796E12.jpeg",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "去UC极速版领现金",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "39084",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "39084|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_39084|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://storage.jd.com/static-page/mission/forever/changeflowapp/index.html?code=202508191448pjqsUv&mid=39084&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"39084\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"39084|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_39084|0|\",\"ordid\":\"*2*18*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**去UC极速版领现金\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"39084\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "完成任务可得1京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 6,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 21,
+                "liulan": 9
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "39131",
+              "missionReportDUId": "39131|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_39131|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.757313870737895E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "去番茄畅听，听书赚钱",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "39131",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "39131|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_39131|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://storage.jd.com/static-page/mission/forever/changeflowapp/index.html?code=2025081817076J7uir&mid=39131&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"39131\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"39131|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_39131|0|\",\"ordid\":\"*2*19*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**去番茄畅听，听书赚钱\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"39131\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "完成任务可得1京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 6,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 22,
+                "liulan": 10
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "40355",
+              "missionReportDUId": "40355|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_40355|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7591354394464844E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+2",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "参与少数派夺京豆",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "40355",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "40355|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_40355|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://member.jr.jd.com/member/win_golden_bean/index?channel=sqcyrw&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"40355\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"40355|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_40355|0|\",\"ordid\":\"*2*20*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**参与少数派夺京豆\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"40355\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "参与投注可得奖励，竞猜赢百万京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 10,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 23
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "41503",
+              "missionReportDUId": "41503|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_41503|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7509310784419167E12.jpeg",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "去京东健康领红包",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "41503",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "41503|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_41503|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://laputa.jd.com/healthDownLoad/down/index?channelNo=kejishengqian0823&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"41503\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"41503|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_41503|0|\",\"ordid\":\"*2*21*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**去京东健康领红包\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"41503\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "完成任务可得1京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 10,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 24
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "36136",
+              "missionReportDUId": "36136|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_36136|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7509273679801316E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "京豆捕鱼｜消耗10%能量值",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "36136",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "36136|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_36136|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://u.jr.jd.com/uc-fe-wxgrowing/catch-fish/index/?channel=jfrw&jdjrOrientation=landscape&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"36136\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"36136|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_36136|0|\",\"ordid\":\"*2*22*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**京豆捕鱼｜消耗10%能量值\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"36136\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "点击屏幕开炮消耗能量得京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 1,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 25,
+                "renwu": 10
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "35959",
+              "missionReportDUId": "35959|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35959|0|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7509274145606606E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "成功喂一次小猪",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "35959",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "35959|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35959|0|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://u.jr.jd.com/uc-fe-wxgrowing/cloudpig/index/?channelLV=xjf&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"35959\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"35959|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_35959|0|\",\"ordid\":\"*2*23*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**成功喂一次小猪\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"35959\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "完成任务可得1京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 1,
+              "receivingStatus": 0,
+              "orderInfo": {
+                "tuijian": 26,
+                "renwu": 11
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": 0,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "30829",
+              "missionReportDUId": "30829|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_30829|-1|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7509305814133184E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+128",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "免费激活300万住院报销金",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "30829",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "30829|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_30829|-1|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://bao.tjjt360.com/insurance/product/p?sourceType=JRAPP&resourcePlace=jfrw&pid=1975172537&merchantNo=1018120001&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"30829\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"30829|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_30829|-1|\",\"ordid\":\"*2*24*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**免费激活300万住院报销金\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"30829\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "带病也可以申请，每人限领一次",
+                "textColor": "#999999"
+              },
+              "missionType": 4,
+              "receivingStatus": 1,
+              "orderInfo": {
+                "tuijian": 27,
+                "renwu": 12
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": -1,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "31698",
+              "missionReportDUId": "31698|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_31698|-1|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7509305548076316E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+88",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "0.01元起体验重疾保障",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "31698",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "31698|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_31698|-1|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://bao.tjjt360.com/insurance/product/x3?sourceType=JRAPP&resourcePlace=jfrw&pid=1937331876&merchantNo=1018120001&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"31698\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"31698|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_31698|-1|\",\"ordid\":\"*2*25*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**0.01元起体验重疾保障\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"31698\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "至高25000元，每人限领一次",
+                "textColor": "#999999"
+              },
+              "missionType": 1,
+              "receivingStatus": 1,
+              "orderInfo": {
+                "tuijian": 28,
+                "renwu": 13
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": -1,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "32988",
+              "missionReportDUId": "32988|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_32988|-1|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7509304263584675E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+128",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "免费领30天补充医疗",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "32988",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "32988|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_32988|-1|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://bao.tjjt360.com/insurance/product/p-pro?sourceType=JRAPP&resourcePlace=jfrw&pid=2027601906&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"32988\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"32988|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_32988|-1|\",\"ordid\":\"*2*26*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**免费领30天补充医疗\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"32988\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "本任务奖励每人限领一次",
+                "textColor": "#999999"
+              },
+              "missionType": 4,
+              "receivingStatus": 1,
+              "orderInfo": {
+                "tuijian": 29,
+                "renwu": 14
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": -1,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "34520",
+              "missionReportDUId": "34520|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_34520|-1|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.750930167893718E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+88",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "免费开通平台帮还白条",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "34520",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "34520|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_34520|-1|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://bao.tjjt360.com/insurance/product/p?sourceType=JRAPP&resourcePlace=jfrw&pid=1983570500&merchantNo=1018120001&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"34520\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"34520|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_34520|-1|\",\"ordid\":\"*2*27*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**免费开通平台帮还白条\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"34520\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "意外可帮还至高6万，每人限领一次",
+                "textColor": "#999999"
+              },
+              "missionType": 4,
+              "receivingStatus": 1,
+              "orderInfo": {
+                "tuijian": 30,
+                "renwu": 15
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": -1,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "36498",
+              "missionReportDUId": "36498|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_36498|-1|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7509290952873975E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+200",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "免费领601万住院报销金",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "36498",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "36498|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_36498|-1|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://bao.tjjt360.com/insurance/product/p-pro?sourceType=JRAPP&resourcePlace=zgdyljfrw&pid=2017901206&merchantNo=1018120001&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"36498\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"36498|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_36498|-1|\",\"ordid\":\"*2*28*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**免费领601万住院报销金\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"36498\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "完成任务后可得200京豆",
+                "textColor": "#999999"
+              },
+              "missionType": 4,
+              "receivingStatus": 1,
+              "orderInfo": {
+                "tuijian": 31,
+                "renwu": 16
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": -1,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "36760",
+              "missionReportDUId": "36760|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_36760|-1|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.750929050288652E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+50",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "免费领5万宠物医疗报销金",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "36760",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "36760|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_36760|-1|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://bao.tjjt360.com/insurance/product/p?sourceType=JDAPP&resourcePlace=cwylxjfrw&pid=2019490408&merchantNo=1018120001&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"36760\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"36760|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_36760|-1|\",\"ordid\":\"*2*29*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**免费领5万宠物医疗报销金\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"36760\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "本任务奖励每人限领一次",
+                "textColor": "#999999"
+              },
+              "missionType": 4,
+              "receivingStatus": 1,
+              "orderInfo": {
+                "tuijian": 32,
+                "renwu": 17
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": -1,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "41655",
+              "missionReportDUId": "41655|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_41655|-1|",
+              "icon": "//storage.jd.com/sharecodepre/missionVerify/1.7591354394464844E12.png",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+500",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "免费体验AI选好股",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "41655",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "41655|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_41655|-1|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://show.jd.com/m/k02qenxwQWorPD5v/?pageKey=k02qenxwQWorPD5v&sourcetype=jrgjjyrwaixhg3219&channelCode=xjfrwzx"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"41655\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"41655|xjfrwzx|4cc4606899e6434ba3eb7b9f47d6d628_41655|-1|\",\"ordid\":\"*2*30*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**免费体验AI选好股\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"41655\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "0门槛签约，为你精选好股票",
+                "textColor": "#999999"
+              },
+              "missionType": 10,
+              "receivingStatus": 1,
+              "orderInfo": {
+                "tuijian": 33
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": -1,
+              "channelCode": "xjfrwzx"
+            },
+            {
+              "missionId": "39895",
+              "missionReportDUId": "39895|CH202503192|96f3bd2912304e288547baa1148e56e9_39895|-1|",
+              "icon": "",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "逛每日补贴好物",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "39895",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "39895|CH202503192|96f3bd2912304e288547baa1148e56e9_39895|-1|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://show.jd.com/static-page/mission/forever/jumpmission-v2/index.html?juid=b03aedfff1824cbdb7fffe15727ef674"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"39895\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"39895|CH202503192|96f3bd2912304e288547baa1148e56e9_39895|-1|\",\"ordid\":\"*2*31*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**逛每日补贴好物\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"39895\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "",
+                "textColor": "#999999"
+              },
+              "missionType": 3,
+              "receivingStatus": 1,
+              "orderInfo": {},
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": -1,
+              "channelCode": "CH202503192"
+            },
+            {
+              "missionId": "39896",
+              "missionReportDUId": "39896|CH202503192|96f3bd2912304e288547baa1148e56e9_39896|-1|",
+              "icon": "",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "逛每日推荐好物",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "39896",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "39896|CH202503192|96f3bd2912304e288547baa1148e56e9_39896|-1|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://show.jd.com/static-page/mission/forever/jumpmission-v2/index.html?juid=2a55f816a7da4996a9bf3ff4bb2196ee"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"39896\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"39896|CH202503192|96f3bd2912304e288547baa1148e56e9_39896|-1|\",\"ordid\":\"*2*32*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**逛每日推荐好物\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"39896\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "",
+                "textColor": "#999999"
+              },
+              "missionType": 3,
+              "receivingStatus": 1,
+              "orderInfo": {},
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": -1,
+              "channelCode": "CH202503192"
+            },
+            {
+              "missionId": "39897",
+              "missionReportDUId": "39897|CH202503192|96f3bd2912304e288547baa1148e56e9_39897|-1|",
+              "icon": "",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "逛每日热销好物",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "39897",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "39897|CH202503192|96f3bd2912304e288547baa1148e56e9_39897|-1|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://show.jd.com/static-page/mission/forever/jumpmission-v2/index.html?juid=bd6bda68d3154362b0782c2ca0e2be3c"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"39897\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"39897|CH202503192|96f3bd2912304e288547baa1148e56e9_39897|-1|\",\"ordid\":\"*2*33*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**逛每日热销好物\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"39897\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "",
+                "textColor": "#999999"
+              },
+              "missionType": 3,
+              "receivingStatus": 1,
+              "orderInfo": {},
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": -1,
+              "channelCode": "CH202503192"
+            },
+            {
+              "missionId": "39898",
+              "missionReportDUId": "39898|CH202503192|96f3bd2912304e288547baa1148e56e9_39898|-1|",
+              "icon": "",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "逛品质低价好物",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "39898",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "39898|CH202503192|96f3bd2912304e288547baa1148e56e9_39898|-1|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://show.jd.com/static-page/mission/forever/jumpmission-v2/index.html?juid=96385f5d2e59416e85e6599d2485b152"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"39898\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"39898|CH202503192|96f3bd2912304e288547baa1148e56e9_39898|-1|\",\"ordid\":\"*2*34*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**逛品质低价好物\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"39898\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "",
+                "textColor": "#999999"
+              },
+              "missionType": 3,
+              "receivingStatus": 1,
+              "orderInfo": {},
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": -1,
+              "channelCode": "CH202503192"
+            },
+            {
+              "missionId": "39899",
+              "missionReportDUId": "39899|CH202503192|96f3bd2912304e288547baa1148e56e9_39899|-1|",
+              "icon": "",
+              "topFlag": false,
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "浏览热销爆品",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "39899",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "39899|CH202503192|96f3bd2912304e288547baa1148e56e9_39899|-1|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://show.jd.com/static-page/mission/forever/jumpmission-v2/index.html?juid=7de4aa0c7e8943e498899853a86aa647"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"39899\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"39899|CH202503192|96f3bd2912304e288547baa1148e56e9_39899|-1|\",\"ordid\":\"*2*35*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**浏览热销爆品\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"39899\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "",
+                "textColor": "#999999"
+              },
+              "missionType": 3,
+              "receivingStatus": 1,
+              "orderInfo": {},
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": -1,
+              "channelCode": "CH202503192"
+            },
+            {
+              "missionId": "39788",
+              "missionReportDUId": "39788|CH202503192|96f3bd2912304e288547baa1148e56e9_39788|-1|",
+              "icon": "",
+              "topFlag": false,
+              "title1": {
+                "text": "（15/22）",
+                "textColor": "#333333"
+              },
+              "awardNumber": {
+                "text": "+1",
+                "textColor": "+#FF4144"
+              },
+              "title": {
+                "text": "浏览低价好物",
+                "textColor": "#333333"
+              },
+              "button": {
+                "legonoqds_missionId": "39788",
+                "bgColor": "#FF4144",
+                "legonoqds_missionReportDUId": "39788|CH202503192|96f3bd2912304e288547baa1148e56e9_39788|-1|",
+                "jumpData": {
+                  "jumpType": 8,
+                  "pageType": 0,
+                  "jumpUrl": "https://show.jd.com/static-page/mission/forever/jumpmission-v2/index.html?juid=f675f838250c4f539819641d5f420d80"
+                },
+                "text": "去完成",
+                "trackData": {
+                  "paramJson": "{\"qd_sys\":\"lg_platform_service\",\"sysCode\":\"lg_platform_service\",\"missionId\":\"39788\",\"ifTopUp\":0,\"lgKeyPathMd5\":\"f4d538b23450bc7cc1e422850ffcfa8d\",\"pagid\":\"-1\",\"missionReportDUId\":\"39788|CH202503192|96f3bd2912304e288547baa1148e56e9_39788|-1|\",\"ordid\":\"*2*36*0*0-0\",\"lgPageId\":\"11189\",\"posid\":\"*86753*86450*107488*\",\"legoEnv\":\"3\",\"matid\":\"*任务区*任务区*任务列表**浏览低价好物\",\"legoCurLevel\":\"PIT\",\"jumpSource\":\"001\",\"mainFloorId\":\"86753\",\"legoSystem\":\"lg_platform_service\",\"reqSource\":\"0\"}",
+                  "paid": "gainJDbean",
+                  "cls": "gainJDbean|taskButton",
+                  "bid": "711189",
+                  "spj": "{\"missionId\":\"39788\"}",
+                  "ctp": "711189"
+                },
+                "textColor": "#FFFFFF",
+                "legonoqds_ifTopUp": 0
+              },
+              "subTitle": {
+                "text": "",
+                "textColor": "#999999"
+              },
+              "missionType": 3,
+              "receivingStatus": 1,
+              "orderInfo": {
+                "tuijian": 2
+              },
+              "coinImg": "https://kjimg10.360buyimg.com//mcmktadmin/jfs/t1/309402/31/11809/2476/6859060aFb88c0f92/b26232d3ad2176ef.png?width=42&height=42&_fs=2476",
+              "status": -1,
+              "channelCode": "CH202503192"
+            }
+          ],
+          "title2": {
+            "text": "今日最高赚5503京豆",
+            "textColor": "#999999"
+          },
+          "taskBgColor": "#1aff4144",
+          "title": {
+            "text": "赚京豆当钱花",
+            "textColor": "#000000"
+          },
+          "guideLottie": "https://kjstorage.360buyimg.com//investx-data-url/lgAdmin/json/f71beafec850be1e91b00427f8ef0891.json"
+        },
+        "orderNum": 2,
+        "templateId": 86450,
+        "extMap": "{\"legoVersion\":\"30\",\"pageId\":11189,\"interactiveRefresh\":{\"templateType\":256610003,\"templateInsId\":86450,\"floorInstanceId\":86753}}",
+        "floorTagData": {
+          "legoBizType": []
+        },
+        "templateBgColor": "",
+        "pageId": 11189,
+        "templateIndex": 2,
+        "hasError": false,
+        "floorInstanceId": 86753,
+        "templateKey": ""
+      }
+    ]
+  },
+  "success": true,
+  "resultCode": 0,
+  "resultMsg": "成功",
+  "channelEncrypt": 0
+}

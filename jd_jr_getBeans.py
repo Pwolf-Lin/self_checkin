@@ -12,7 +12,7 @@ ActivityEntry: 京东金融-省钱-做任务领京豆
 
 import requests, sys, os, re, time, json
 from datetime import datetime
-from urllib.parse import quote, quote_plus, unquote_plus
+from urllib.parse import quote, quote_plus, unquote_plus,urlparse
 from functools import partial
 from utils import get_data
 print = partial(print, flush=True)
@@ -26,6 +26,7 @@ try:
 except:
     print("请先下载依赖脚本，\n下载链接: https://raw.githubusercontent.com/HarbourJ/HarbourToulu/main/jdCookie.py")
     sys.exit(3)
+
 
 
 def finishTaskEveryday(cookie):
@@ -85,7 +86,7 @@ def finishTaskEveryday(cookie):
         "Sec-Fetch-Mode": "cors",
         "Content-Type": "application/x-www-form-urlencoded",
         "Origin": f"https://member.jr.jd.com",
-        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148/application=JDJR-App&clientType=ios&iosType=iphone&clientVersion=8.0.50&HiClVersion=8.0.50&isUpdate=0&osVersion=18.4.1&osName=iOS&screen=896*414&src=App Store&netWork=2&netWorkType=4&CpayJS=UnionPay/1.0 JDJR&stockSDK=stocksdk-iphone_6.0.0&sPoint=&jdPay=(*#@jdPaySDK*#@jdPayChannel=jdfinance&jdPayChannelVersion=8.0.50&jdPaySdkVersion=4.01.69.00&jdPayClientName=iOS*#@jdPaySDK*#@)",
+        "User-Agent": ua,
         "x-referer-page": f"https://member.jr.jd.com/member/coinQuest/coin/",
         "Referer": f"https://member.jr.jd.com/",
         "Connection": "keep-alive",
@@ -93,36 +94,37 @@ def finishTaskEveryday(cookie):
         "Cookie": cookie,
     }
     res = requests.request("POST", url = url, headers=headers, data=payload.encode('utf-8')).json()
+    # with open('temp_response.json', 'w', encoding='utf-8') as f:
+    #     json.dump(res, f, ensure_ascii=False, indent=2)
     # try:
     finMsg = " "
     doMsg = " "
     taskList=[]
-    if res['resultData']['success']:
-        getList=res['resultData']['data']
+    if res['success']:
+        getList=res['resultData']['resultList'][2]['templateData']['taskList']
         for itask in getList:
-            if any("externalCode" in key or 'delayAwardDays' in key for key in itask.keys()):continue
-            status=itask['status']
-            finishNum=itask['finishNum']
-            if(finishNum==1):continue
-            awardNum = itask['awards'][0]['awardNum']
-            if (awardNum>20):continue
-            doLink=itask['doLink'] + ' '
-            missionId=itask['missionId']
-            name=itask['name']
-            if(finishNum==0):
-                if(status==1):
-                    # awardTaskEveryday(doLink,missionId,name,cookie)
-                    time.sleep(1)
-                elif(status==2):
-                    continue
-                elif(status==-1):#接取任务
-                    # reveice(doLink,missionId,name,cookie)
-                    time.sleep(1)
-                else:
-                    taskList.append(itask)
+            # if(int(itask['awardNumber']['text'])>1):
+            #     print("跳过任务："+itask['title']['text'])
+            #     continue
+            if(itask['status']==-1):
+                title=itask['title']['text']
+                jumpUrl = itask['button']['jumpData']['jumpUrl']
+                getheaders={
+                    "Host":urlparse(url).netloc,
+                    "Cookie":cookie,
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                    "User-Agent": ua,
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Accept-Language": "zh-CN,zh-Hans;q=0.9",
+                    "Connection": "keep-alive"}
+                try:
+                    requests.request("GET", jumpUrl, headers=getheaders, timeout=5)
+                except requests.exceptions.RequestException:
+                    pass                 
+                    time.sleep(5)
             else:continue
 
-
+        return
 
 
 
@@ -150,7 +152,7 @@ if __name__ == '__main__':
         num += 1
         global ua
         # ua = userAgent()
-        ua = 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148/application=JDJR-App&clientType=ios&iosType=iphone&clientVersion=6.5.90&HiClVersion=6.5.90&isUpdate=0&osVersion=15.6.1&osName=iOS&screen=896*414&src=App Store&netWork=1&netWorkType=1&CpayJS=UnionPay/1.0 JDJR&stockSDK=stocksdk-iphone_4.2.3&sPoint=MTAwMDcjI2RpYW9xaTQwMDI%3D&jdPay=(*#@jdPaySDK*#@jdPayChannel=jdfinance&jdPayChannelVersion=6.5.90&jdPaySdkVersion=4.00.64.00&jdPayClientName=iOS*#@jdPaySDK*#@)'
+        ua = 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148/application=JDJR-App&clientType=ios&iosType=iphone&clientVersion=8.0.50&HiClVersion=8.0.50&isUpdate=0&osVersion=18.4.1&osName=iOS&screen=896*414&src=App Store&netWork=2&netWorkType=4&CpayJS=UnionPay/1.0 JDJR&stockSDK=stocksdk-iphone_6.0.0&sPoint=&jdPay=(*#@jdPaySDK*#@jdPayChannel=jdfinance&jdPayChannelVersion=8.0.50&jdPaySdkVersion=4.01.69.00&jdPayClientName=iOS*#@jdPaySDK*#@)'
         try:
             pt_pin = re.compile(r'pt_pin=(.*?);').findall(cookie)[0]
             pt_pin = unquote_plus(pt_pin)
