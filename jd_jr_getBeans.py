@@ -110,47 +110,56 @@ def finishTaskEveryday(cookie):
             # if(int(itask['awardNumber']['text'])>1):
             #     print("跳过任务："+itask['title']['text'])
             #     continue
-            if(itask['status']==-1):
-                if int(itask['awardNumber']['text'])>1:continue
-                title=itask['title']['text']
-                receiveUrl="https://ms.jr.jd.com/gw2/generic/mission/newh5/m/receiveMissionForNa"
-                req_Data={"environment":"2","missionId":"29869","channelCode":"xjfrwzx",
-                         "nonce":"19474417291764269427","signature":"e1c596776f9a501cb3225ab02a6cbb8503e114d5fb0257f4980e9a4c977a282601",
-                         "deviceInfo1":{"jsToken":"jdd03MZLLBO3B56DCKXG2PMSOWGGLYXOZ3DL4I5WZF77LXWGSDGBLL4LUNS7XWU4MCJDMGNPFZI6WJ26IDW5JJB6VMVAAPMAAAAM2Y2TPZWYAAAAACFUUHGCMRSDFGIX",
-                                        "fp":"1cc0ec2c9d56327da00d36f365daf812","sdkToken":"jdd01IPLEFAU7KQ3BXHXOQL5OFIINBRD2ZDPNOSPNTAF7THTGISGPPUC25SR2NJ2226DHODTAQQFNJSVXYINDRF2Y4ILJRUMZAUVAB2UH5EY01234567",
-                                        "eid":"MZLLBO3B56DCKXG2PMSOWGGLYXOZ3DL4I5WZF77LXWGSDGBLL4LUNS7XWU4MCJDMGNPFZI6WJ26IDW5JJB6VMVAAPM",
-                                        "token":"jdd01IPLEFAU7KQ3BXHXOQL5OFIINBRD2ZDPNOSPNTAF7THTGISGPPUC25SR2NJ2226DHODTAQQFNJSVXYINDRF2Y4ILJRUMZAUVAB2UH5EY01234567"},
-                         "clientType":"h5","clientVersion":"8.0.50"}
-                reqData="reqData=" + quote(json.dumps(req_Data, separators=(',', ':')))
-                res = requests.request("POST", url = receiveUrl, headers=headers, data=reqData.encode('utf-8')).json()
-                if res['resultData']['success']:
-                    jumpUrl = itask['button']['jumpData']['jumpUrl']
-                    getheaders={
-                        "Host":urlparse(url).netloc,
-                        "Cookie":cookie,
-                        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-                        "User-Agent": ua,
-                        "Accept-Encoding": "gzip, deflate, br",
-                        "Accept-Language": "zh-CN,zh-Hans;q=0.9",
-                        "Connection": "keep-alive"}
+            title=itask['title']['text']
+            receiveUrl="https://ms.jr.jd.com/gw2/generic/mission/newh5/m/receiveMissionForNa"
+            req_Data={"environment":"2","missionId":"29869","channelCode":"xjfrwzx",
+                     "nonce":"19474417291764269427","signature":"e1c596776f9a501cb3225ab02a6cbb8503e114d5fb0257f4980e9a4c977a282601",
+                     "deviceInfo1":{"jsToken":"jdd03MZLLBO3B56DCKXG2PMSOWGGLYXOZ3DL4I5WZF77LXWGSDGBLL4LUNS7XWU4MCJDMGNPFZI6WJ26IDW5JJB6VMVAAPMAAAAM2Y2TPZWYAAAAACFUUHGCMRSDFGIX",
+                                    "fp":"1cc0ec2c9d56327da00d36f365daf812","sdkToken":"jdd01IPLEFAU7KQ3BXHXOQL5OFIINBRD2ZDPNOSPNTAF7THTGISGPPUC25SR2NJ2226DHODTAQQFNJSVXYINDRF2Y4ILJRUMZAUVAB2UH5EY01234567",
+                                    "eid":"MZLLBO3B56DCKXG2PMSOWGGLYXOZ3DL4I5WZF77LXWGSDGBLL4LUNS7XWU4MCJDMGNPFZI6WJ26IDW5JJB6VMVAAPM",
+                                    "token":"jdd01IPLEFAU7KQ3BXHXOQL5OFIINBRD2ZDPNOSPNTAF7THTGISGPPUC25SR2NJ2226DHODTAQQFNJSVXYINDRF2Y4ILJRUMZAUVAB2UH5EY01234567"},
+                     "clientType":"h5","clientVersion":"8.0.50"}
+            reqData="reqData=" + quote(json.dumps(req_Data, separators=(',', ':')))
+            res = requests.request("POST", url = receiveUrl, headers=headers, data=reqData.encode('utf-8')).json()
+            if res['resultData']['success']:
+                jumpUrl = itask['button']['jumpData']['jumpUrl']
+                getheaders={
+                    "Host":urlparse(url).netloc,
+                    "Cookie":cookie,
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                    "User-Agent": ua,
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Accept-Language": "zh-CN,zh-Hans;q=0.9",
+                    "Connection": "keep-alive"}
+                try:
+                    requests.request("GET", jumpUrl, headers=getheaders, timeout=5)
+                    jumpdeaders=headers
+                    remove=['x-rp-client','Content-Type',"x-referer-page"]
+                    jumpdeaders={k: v for k, v in jumpdeaders.items() if k not in remove}
+                    jumpdeaders['Origin']=re.match(r'(https?://[^/]+)', url).group(1)
+                    jumpdeaders['Referer']=jumpUrl
+                    jumpinfo=f'https://ms.jr.jd.com/gw2/generic/mission/h5/m/getJumpInfo?juid={re.findall(r"juid=([^&#]+)",jumpUrl)[0]}&signature=22358920A036807EA0FB65F39B536E45A142A6869403326C41CDECB9E5BC027281&nonce=32607695931764427669&jrAppVersion=8.0.50&systemEnv=IOS'
+                    jumpres=requests.request("GET", jumpinfo, headers=jumpdeaders, timeout=5)
+                    
+                    requests.request("POST", url = url, headers=headers, data=payload.encode('utf-8')).json()
+                    
+                    popurl=f'https://ms.jr.jd.com/gw2/generic/legogw/h5/m/getPopTemplateData?timekey={int(time.time() * 1000)}'
+                    popres=requests.request("POST", url = popurl, headers=headers, data=payload.encode('utf-8')).json()
+                    if popres['success']:
+                        qyurl='https://ms.jr.jd.com/gw/generic/jj/newna/m/legoServerExecute?choiseTemplate=QY'
+                        body={
+                          "channelEncrypt" : 1,
+                          "bodyEncrypt" : "AQAAAOsDAAAwBgAANzQyMTk0NzGiZL3hWILcVazhLE4ovYmPmwdcQrO4RxzoU1GcozWHGvFv5B+6lbgysMGSIX55gvt64US/Qi1d8+4fyZlXY16dLBhIHdem2FQb9WtprQpBES/2pVqKxvF6LWuX6NfLUsl5O+8CK3OXMgK+/0j2sm9v0ne61OXmsc7aSuj3g/lhEDiWrgSphV0OLnuPKBSwWKh8QamPM7VFKWMtAlsMrlqFbvakz3cnlx3gU8Xu2jRs7YEhdO1ZC0IMPKIqtBdbgAr+k9X30qFeCg/ICufagT2lFq8MqBU3rDbiT/fKgcv5QHoBcOlXU2GRKdiesiayd7/Lmoqh5QKwj7fJQbHy4Hs6sEMfXq4x6d3d5HgXyCBtUhll8TeCcf/r49zj/UFN9gdaB5lyoiyizY8Q6wVy9ukT8bQDdrJj6jKVy91stckMF4RKegG/uTPe82s+5JkReG1bUDE+Te5XGXXQC/Q/tZk1ACdCtBqsSL78rs8F0etsurRzHGiTmd0uejAzd8DaPm5WwMjV8UepG5Zj2D4vIeGBhU3O1fafKWxBz/BheekYBOeC4GRo9Xd//lwKFzigfrZi0ljfdCuUV/YQmqGkAkJijb3DYHYF+c3C552ZV1eU2IIrDX4gnQKx3JYXHymsmBbEuXg+u4GzPxq54DV5cJ6+kMccVtBn9ozZ9wKPAbQb3GFidK7/vNKMyRM0Jt6G9BTp/tthse0tfsrGbqTT/cG1t4BFnUBjlR7YnRIkwBmtNqQzitEQ62nBC35LL8Wo7FTb8DKTB8NTozMSDOqaOTP4yvteTBJHYpBmZkU0gIwOJbskcuZo+9jHCjMf+iI/wij0Wa4DeUFZn7Ijk4Y61AqkN8sNu6fukZttNa8Mkf4pC40t6eKMy554UY93HsW1OP+gXCnGlPALpONtzx6ymVLdBKBcXhXK3kx8PqFy+6vv96uFLDC0s5xLgmusmSRA1etV1nVfKtLWT4nEvWmDqEyk40SmInTSYL+dSYUzXvADXd2FVVNV11CVU++siu74AM/QNh+ePzPk2Bbm5p/9DX6xlxZLuvB4F2GmLuBPg1G1oPfDbfNvhNbokByxOtJw57mK61EnoLPyV/E/CnNW+X5bd1aRh5rNtV1ynbDCXEFhrus7gaVyYX6Eo/h9gHct7o8Y3PlxFZulTxP6WclHKGJCynUxeemRhS/tGStlD2RrWmrsgDhHOkW694dHZ893NKA5bBqKzr6omZONbrw3N2rhQuCTgNbpoeEA5tRb8DlKfSqjT7L4HzwFo4PlDMgjN8KAixKRGgbLXg9hB896lKwB6o5ReHwSTeDQAnc3gSaeEfO5hz7wg6qv+N2MTKdjIl5tv6puaSw2dboLIGNAKIxJLiqRHIhRD1PjnF+1wdmNu4nKgVRlcdmnp07uP/JfIxiy3xf9zd0+ReknBipg05LU3wmZPhZwArukVSysq2uPFj11ss0nExcyshsWWvI82yqlvcbaqdKY8hcp/j3v+eyR7PgGC2XsNfN2FQrSGgk99/SvzjHOS/MeVtNIGon/xOUWvq8gIfi8WIjn7774NVacgQNIc3S17Arehbqzw6Rj4gw5/8LXPnRiWaUTOwdIZpXxhdPzrPRs+M9m5t0EamIQMiKvVvQhUKAmumf5qaGGjLXYUYPPBjDIePgGhPnarxwidukidXV6eaVkUYCBlg+qvYWVGzrPPR4agPhkfBHvuWoSDKa3FDlJALiTsNa+zpfI52mm7WVnaLknml6377xTw0GKVV6JbHngjWmXg43DC7W87GBPhgFxYWPU6CwMooTDDf/5ZmWfaF1dFZSpLQVIASqA+jV/+Omqg8Os5ltTItU2GdIonpWDOlSIb+/I6h6y9QXFdXLYLJYS2R4d3/ujCkWUeSP6SnbRHLEYe5/ESlZcsQMugMKeyl140yuEYZuk3yfvo6T1DtUP+OY5ecxsgB5LIZGN54qwJarxOV/FtsspTjkPkcedtBoOSyxQ65b+wNEVmjVGdxAH5S/p3k/BpSPqDRnNw+IGt/ODaiwp3xm00T0RwnIjMtTLfGPV74fKJoAbVLD6heRQuVBaoBaTnMBAkcKP7SsarTEYE2sIvdiii/2UN50KYbFPv8ZvBxB6GQaikxrN9rJNu960AXppLM+mMMv9P0hBI3Fw0/lc70iLiQ6HhfVbHTvnWI+FTTAjSZSFtUZdqLC/6HkDabntc3Z+AEPJdT7s++i5xGCP0Dlgd0MWx8Ff+UoI9PCUn++3TdYJXcdNE6cEuQcCirZH"
+                        }
+                        # body=json.dumps(body, ensure_ascii=False)
+                        qyres=requests.request("POST", url = qyurl, headers=headers, json=body).json()
+                        print(qyres)
+                except requests.exceptions.RequestException:
+                    pass                 
+                    time.sleep(5)
 
-                    try:
-                        requests.request("GET", jumpUrl, headers=getheaders, timeout=5)
-                    except requests.exceptions.RequestException:
-                        pass                 
-                        time.sleep(5)
-            else:continue
 
         return
-
-
-#先不写了，没空
-#有空再写吧
-
-
-
-
-
 
 
 if __name__ == '__main__':
