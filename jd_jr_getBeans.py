@@ -103,25 +103,42 @@ def finishTaskEveryday(cookie):
     if res['success']:
         getList=res['resultData']['resultList'][2]['templateData']['taskList']
         for itask in getList:
+            if(itask['status']==0):continue
+            if int(itask['awardNumber']['text'])>1:continue
+            taskList.append(itask)
+        for itask in taskList:
             # if(int(itask['awardNumber']['text'])>1):
             #     print("跳过任务："+itask['title']['text'])
             #     continue
             if(itask['status']==-1):
+                if int(itask['awardNumber']['text'])>1:continue
                 title=itask['title']['text']
-                jumpUrl = itask['button']['jumpData']['jumpUrl']
-                getheaders={
-                    "Host":urlparse(url).netloc,
-                    "Cookie":cookie,
-                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-                    "User-Agent": ua,
-                    "Accept-Encoding": "gzip, deflate, br",
-                    "Accept-Language": "zh-CN,zh-Hans;q=0.9",
-                    "Connection": "keep-alive"}
-                try:
-                    requests.request("GET", jumpUrl, headers=getheaders, timeout=5)
-                except requests.exceptions.RequestException:
-                    pass                 
-                    time.sleep(5)
+                receiveUrl="https://ms.jr.jd.com/gw2/generic/mission/newh5/m/receiveMissionForNa"
+                req_Data={"environment":"2","missionId":"29869","channelCode":"xjfrwzx",
+                         "nonce":"19474417291764269427","signature":"e1c596776f9a501cb3225ab02a6cbb8503e114d5fb0257f4980e9a4c977a282601",
+                         "deviceInfo1":{"jsToken":"jdd03MZLLBO3B56DCKXG2PMSOWGGLYXOZ3DL4I5WZF77LXWGSDGBLL4LUNS7XWU4MCJDMGNPFZI6WJ26IDW5JJB6VMVAAPMAAAAM2Y2TPZWYAAAAACFUUHGCMRSDFGIX",
+                                        "fp":"1cc0ec2c9d56327da00d36f365daf812","sdkToken":"jdd01IPLEFAU7KQ3BXHXOQL5OFIINBRD2ZDPNOSPNTAF7THTGISGPPUC25SR2NJ2226DHODTAQQFNJSVXYINDRF2Y4ILJRUMZAUVAB2UH5EY01234567",
+                                        "eid":"MZLLBO3B56DCKXG2PMSOWGGLYXOZ3DL4I5WZF77LXWGSDGBLL4LUNS7XWU4MCJDMGNPFZI6WJ26IDW5JJB6VMVAAPM",
+                                        "token":"jdd01IPLEFAU7KQ3BXHXOQL5OFIINBRD2ZDPNOSPNTAF7THTGISGPPUC25SR2NJ2226DHODTAQQFNJSVXYINDRF2Y4ILJRUMZAUVAB2UH5EY01234567"},
+                         "clientType":"h5","clientVersion":"8.0.50"}
+                reqData="reqData=" + quote(json.dumps(req_Data, separators=(',', ':')))
+                res = requests.request("POST", url = receiveUrl, headers=headers, data=reqData.encode('utf-8')).json()
+                if res['resultData']['success']:
+                    jumpUrl = itask['button']['jumpData']['jumpUrl']
+                    getheaders={
+                        "Host":urlparse(url).netloc,
+                        "Cookie":cookie,
+                        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "User-Agent": ua,
+                        "Accept-Encoding": "gzip, deflate, br",
+                        "Accept-Language": "zh-CN,zh-Hans;q=0.9",
+                        "Connection": "keep-alive"}
+
+                    try:
+                        requests.request("GET", jumpUrl, headers=getheaders, timeout=5)
+                    except requests.exceptions.RequestException:
+                        pass                 
+                        time.sleep(5)
             else:continue
 
         return
