@@ -157,7 +157,7 @@ def finishTaskEveryday(cookie):
                 except requests.exceptions.RequestException:
                     pass                 
                     time.sleep(5)
-
+#还是有一些问题，但是没找到原因！
 
         return
 
