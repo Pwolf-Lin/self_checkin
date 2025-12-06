@@ -158,7 +158,6 @@ def finishTaskEveryday(cookie):
                     pass                 
                     time.sleep(5)
 #还是有一些问题，但是没找到原因！
-#再提交！
 
         return
 
