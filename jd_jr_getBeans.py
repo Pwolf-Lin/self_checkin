@@ -159,6 +159,10 @@ def finishTaskEveryday(cookie):
                     time.sleep(5)
 #还是有一些问题，但是没找到原因！
 #不想写了！！！
+# git add .
+# git commit -m "问题依然存在"
+# git push
+###############
 
         return
 
